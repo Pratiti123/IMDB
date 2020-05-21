@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="IMDB_Top_250_Movies_List" duration-ms="507194" started-at="2015-04-06T14:15:54Z" finished-at="2015-04-06T14:24:21Z">
+    <groups>
+    </groups>
+    <test name="TestCase to retrieve Movie List" duration-ms="507194" started-at="2015-04-06T14:15:54Z" finished-at="2015-04-06T14:24:21Z">
+      <class name="imdbTest.Test_GetTop250MovieDetails">
+        <test-method status="PASS" signature="droptable()[pri:0, instance:imdbTest.Test_GetTop250MovieDetails@5149d738]" name="droptable" is-config="true" duration-ms="566" started-at="2015-04-06T19:45:54Z" finished-at="2015-04-06T19:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- droptable -->
+        <test-method status="PASS" signature="GetURL()[pri:0, instance:imdbTest.Test_GetTop250MovieDetails@5149d738]" name="GetURL" duration-ms="13322" started-at="2015-04-06T19:45:55Z" finished-at="2015-04-06T19:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetURL -->
+        <test-method status="PASS" signature="NavigateInIMDB()[pri:0, instance:imdbTest.Test_GetTop250MovieDetails@5149d738]" name="NavigateInIMDB" duration-ms="9411" started-at="2015-04-06T19:46:08Z" depends-on-methods="imdbTest.Test_GetTop250MovieDetails.GetURL" finished-at="2015-04-06T19:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateInIMDB -->
+        <test-method status="PASS" signature="FetchData()[pri:0, instance:imdbTest.Test_GetTop250MovieDetails@5149d738]" name="FetchData" duration-ms="483827" started-at="2015-04-06T19:46:17Z" depends-on-methods="imdbTest.Test_GetTop250MovieDetails.GetURL, imdbTest.Test_GetTop250MovieDetails.NavigateInIMDB" finished-at="2015-04-06T19:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FetchData -->
+        <test-method status="PASS" signature="CreateFile()[pri:0, instance:imdbTest.Test_GetTop250MovieDetails@5149d738]" name="CreateFile" duration-ms="36" started-at="2015-04-06T19:54:21Z" depends-on-methods="imdbTest.Test_GetTop250MovieDetails.GetURL, imdbTest.Test_GetTop250MovieDetails.NavigateInIMDB, imdbTest.Test_GetTop250MovieDetails.FetchData" finished-at="2015-04-06T19:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateFile -->
+      </class> <!-- imdbTest.Test_GetTop250MovieDetails -->
+    </test> <!-- TestCase to retrieve Movie List -->
+  </suite> <!-- IMDB_Top_250_Movies_List -->
+</testng-results>
